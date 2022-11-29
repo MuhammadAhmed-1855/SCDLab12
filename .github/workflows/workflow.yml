@@ -14,9 +14,6 @@ jobs:
     runs-on: ubuntu-latest
     
     defaults:
-      run:
-        working-directory: ./client
-    
     strategy:
       matrix:
         node-version: [16.17.x]
